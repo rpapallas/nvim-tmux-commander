@@ -3,8 +3,7 @@
 This is a simple plugin, inspired by the [Harpoon](https://github.com/ThePrimeagen/harpoon) project,
 to register and run commands. It will launch a pane dedicated to run commands. The user can
 define custom commands (bash/zsh commands) and the plugin will run them using
-keybindings. This is currently in very early stage development. Happy to receive
-feedback, PRs etc.
+keybindings.
 
 ## Installation
 
@@ -56,3 +55,10 @@ return {
 Happy to accept contributions/pull requests to extend and improve this simple
 plugin. I am also open to feedback and requests for new features. Please open a
 GitHub issue for those.
+
+## TODO
+
+This is currently in very early stage development. Happy to receive feedback, PRs etc. Some things I plan to add/fix:
+
+- [ ] More robust runner pane handling.
+- [ ] Customisation via a config file (allowing a user to define customisation via the `opts` dictionary). For example, the pop-up dimensions, the runner pane dimensions etc.
