@@ -49,6 +49,7 @@ return {
     opts = {
     },
 }
+```
 
 ## Contributions, feedback and requests
 
