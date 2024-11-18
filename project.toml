@@ -1,0 +1,6 @@
+[project]
+name = "nvim-tmux-commander"
+version = "0.0.1"
+description = "An integration of tmux and nvim to run commands."
+author = "Rafael Papallas"
+email = "rpapallas@gmail.com"
