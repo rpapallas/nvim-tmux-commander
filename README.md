@@ -1,21 +1,16 @@
 <h1 align="center"> nvim-tmux-commander</h1>
 
-<p align="center">
-    This is a simple plugin, inspired by the [Harpoon](https://github.com/ThePrimeagen/harpoon) project,
-    to register and run commands. It will launch a pane dedicated to run commands. The user can
-    define custom commands (bash/zsh commands) and the plugin will run them using
-    keybindings. This is currently in very early stage development. Happy to receive
-    feedback, PRs etc.
-</p>
+This is a simple plugin, inspired by the [Harpoon](https://github.com/ThePrimeagen/harpoon) project,
+to register and run commands. It will launch a pane dedicated to run commands. The user can
+define custom commands (bash/zsh commands) and the plugin will run them using
+keybindings. This is currently in very early stage development. Happy to receive
+feedback, PRs etc.
 
 ## Installation
 
-<details>
-<summary>lazy.nvim</summary>
-
 ```lua
 return {
-    dir = "rpapallas/nvim-tmux-commander",
+    "rpapallas/nvim-tmux-commander",
     dependencies = {
         'nvim-lua/plenary.nvim',
     },
@@ -54,8 +49,6 @@ return {
     opts = {
     },
 }
-```
-</details>
 
 ## Contributions, feedback and requests
 
